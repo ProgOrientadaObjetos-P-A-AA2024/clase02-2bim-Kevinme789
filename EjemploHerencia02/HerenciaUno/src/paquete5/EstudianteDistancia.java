@@ -7,7 +7,9 @@ public class EstudianteDistancia extends Estudiante{
     double costoAsignatura;
     double matriculaDistancia;
     
-        
+     // En el contructor aparte de darle  valor a los atributos de la superclase
+     // Estudiante le doy valores a los atributos de la propia clase 
+     // EstudianteDistancia.
     public EstudianteDistancia(String n, String ap, String iden, int e, 
             int numAsg, double costoAsg){
         super(n, ap, iden, e);
