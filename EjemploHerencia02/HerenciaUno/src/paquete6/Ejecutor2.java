@@ -39,9 +39,9 @@ public class Ejecutor2 {
             System.out.println("Ingrese costo de créditos");
             double costo = entrada.nextDouble();
             entrada.nextLine();
-            paquete5.EstudiantePresencial presencial
-                    = new paquete5.EstudiantePresencial(n, ap, ced,
-                            edad, creditos, costo);
+            EstudiantePresencial presencial
+                    = new EstudiantePresencial(n, ap, ced,
+                            edad, costo, creditos);
             presencial.calcularMatriculaPresencial();
             cadena = String.format("%s%s\n", cadena, presencial);
             System.out.println("Desea salir, pulse S");
