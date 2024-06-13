@@ -1,5 +1,7 @@
 package paquete2;
 
+  // Existe un error porque la superclase Estudiante tiene un constructor por lo
+  // tanto en esta clase tambien es necesario tener uno.        
 public class EstudianteDistancia extends Estudiante{
     
     private int numeroAsignaturas;
